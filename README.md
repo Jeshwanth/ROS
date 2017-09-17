@@ -50,3 +50,35 @@ rosrun rqt_console rqt_console
 rosrun rqt_logger_level rqt_logger_level
 
 rosed [package_name] [filename]
+
+
+
+
+Notes:
+
+ros node: Its an indivisual program which runs for its own purpose.
+
+ros topic: topic is the communication identifier the nod recognize, where the nodes can publish or subscribe to topics.
+
+rkt graph: Its a tool to visualize the connections like who subscribed to which topic and who published to where. 
+
+rostopic: Its a command where u can communicate with the topics, like publish, subscribe, list, info etc ( Refer http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics for more details on how to use rostopic)
+
+rqt_plot: Plots the graps for messages or data.
+
+rosservice: Its also used for communication between nodes, but also can send requests and wait for response. 
+
+rosparam: rosparam allows you to store and manipulate data on the ROS Parameter Server
+
+rqt_console and rqt_logger: used to see the logs rom the nodes and set the diferent log level.
+
+roslaunch: we can use roslaunch to group and launch the multiple nodes.
+
+rosed: rosed can be used to edit the ros files/packages.
+
+ros msg: Ros messages are stored in the msg directory of the package and it will store all the messages for the package in the form of type name in a line. Example: int8 num
+
+ros srv: srv file contains the fields for request and response. 
+
+rosbag: can be used to record and play the data.
+
